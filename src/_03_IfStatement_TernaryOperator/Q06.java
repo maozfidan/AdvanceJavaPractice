@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class Q06 {
     public static void main(String[] args) {
         //TASK :  Kullanıcıdan aldığınız koordinat noktasının hangi bölgede olduğunu yazdıran bir kod yazınız.
+
         Scanner scan = new Scanner(System.in);//kullanıcıdan input almak için scanner obj create ettik.
+
         System.out.println("X ve Y degerleriniz giriniz : ");
         int x = scan.nextInt();
         int y = scan.nextInt();
@@ -24,7 +26,3 @@ public class Q06 {
         }else System.out.println("girdiginiz degerler orjin'dedir");
     }
 }
-
-
-
-
