@@ -6,11 +6,12 @@ public class Q02 {
 
 // 0-255 e kadar olan harflerin , sayı ve harf değerini konsola yazdırınız.
 
-        for (char i = 0; i <=255 ; i++) {
+        for (int i = 0; i <= 255; i++) {
+            char harf = (char) i;
 
-            System.out.print(i + " " );
-
+            System.out.println(i + " - " + harf);
         }
+
 
     }
 }

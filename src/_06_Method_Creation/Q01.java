@@ -41,6 +41,7 @@ public class Q01 {
             kalanHarfler = kelime.substring(2);//lem
         }
         return kalanHarfler;
+
     }
 }
 

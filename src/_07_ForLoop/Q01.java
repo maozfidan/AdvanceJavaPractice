@@ -18,21 +18,15 @@ public class Q01 {
         26
         13       */
     public static void main(String[] args) {
-
-        int sayi=100;
-
-        int toplam=0;
-
-        for (int i = sayi; i >0 ; i--) {
-
-            if (i%13==0) {
-            toplam +=i;
-                System.out.print(i + " ");
-            }
-
-        }
-        System.out.println("\nsayilarin toplami: "+ toplam);
-
+    	int top=0;
+    	
+    	for (int i = 100; i >0; i--) {
+    		if (i%13==0) {
+    			System.out.println(i);
+				top+=i;
+			}
+			
+		}System.out.println(top);
         
     }
 }

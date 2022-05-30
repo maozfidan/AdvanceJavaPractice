@@ -14,8 +14,9 @@ public class Q11 {
    ATM app. method create ediniz
    */
         System.out.println("    ****    ");
-        System.out.println("    ATM'ye hos geldiniz  :-)    ");
-        System.out.println("Bakiye sorgulama : 1\nPara cekme : 2\nPara yatırma : 3\ncıkıs : 4 ");
+        System.out.println("ATM'ye hos geldiniz  :-)    ");
+        System.out.println("    ****    ");
+        System.out.println("MÖNÜÜÜ :-) \nBakiye sorgulama : 1\nPara cekme : 2\nPara yatırma : 3\nÇıkıs : 4 ");
         secim();
     }
     private static void secim() {
@@ -39,6 +40,7 @@ public class Q11 {
 
     private static void paraYatir() {
         System.out.print("agamın eli tutulmazzzz  :-) : ");
+
         int yatırılacakMiktar=scan.nextInt();
         bakiye+=yatırılacakMiktar;
         System.out.println("agam paran hesaba  aynen     ");
@@ -73,16 +75,45 @@ public class Q11 {
         System.out.println("bakıyeniz :" + bakiye);
         System.out.println("   ***   ");
         System.out.println("işleme devam etmek istiyorsanız  1\n işleme devam etmek istemiyorsanız  0\n tuslayınız ");
-        int karar=scan.nextInt();
-        if (karar ==1){
-            secim();
-        }else cıkıs();
+       int karar=scan.nextInt();
+       if (karar ==1){
+           secim();
+       }else cıkıs();
     }
     private static void cıkıs() {
 
         System.out.println("cıkısınız yapıldı yine bekleriz selametle :)");
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

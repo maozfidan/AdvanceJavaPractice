@@ -4,28 +4,25 @@ public class Q17 {
 
     public static void main(String[] args) {
 
-//        1 2 3 4 5 6               6
-//         2 3 4 5 6               5 6
-//          3 4 5 6               4 5 6
-//           4 5 6               3 4 5 6
-//            5 6               2 3 4 5 6
-//             6               1 2 3 4 5 6
+//        1 2 3 4 5 6
+//         2 3 4 5 6
+//          3 4 5 6
+//           4 5 6
+//            5 6
+//             6
 
-        int input = 6;
+        for (int satir = 1; satir <= 6; satir++) {//satır kontrolü
 
-        for (int j = input; j >= input; j--) {
+            for (int bosluk = 1; bosluk < satir; bosluk++) {// boşluk yazdırma
 
-            if (input >= j) {
-                System.out.print(j + " ");
-
-                for (int i = input-1 ; i >= 1; i--) {
-                }
-
-                System.out.println(" ");
+                System.out.print(" ");
             }
+            for (int rakam = satir; rakam <= 6; rakam++) {//sutun kontrolu
 
+               System.out.print(rakam + " ");// rakam+ " " olazsa sağa dayalı olur düzgün üçgen olmaz
+            }
+            System.out.println();
         }
-
     }
 }
 
